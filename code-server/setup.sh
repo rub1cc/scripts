@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install packages
-sudo yum update
+sudo yum update -y
 sudo yum install -y -q curl git wget vim
 sudo yum clean all
 
