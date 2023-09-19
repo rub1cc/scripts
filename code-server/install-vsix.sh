@@ -15,5 +15,5 @@ fi
 for i in $vsix_dir/$VSIX_FILES; do
     [ -f "$i" ] || break
     echo "Installing $i"
-    install-extension $i
+    code-server --install-extension $i
 done
