@@ -26,7 +26,7 @@ fi
 
 # download vscode extensions list
 echo "Downloading vscode settings and extensions list..."
-curl https://raw.githubusercontent.com/rub1cc/.dotfiles/master/.vscode/settings.json > ~/data/User/settings.json
+curl https://raw.githubusercontent.com/rub1cc/.dotfiles/master/.vscode/settings.json > ~/.local/share/code-server/User/settings.json
 curl https://raw.githubusercontent.com/rub1cc/.dotfiles/master/.vscode/extensions.txt -o ~/.vscode/extensions.txt
 
 # install vscode extensions
