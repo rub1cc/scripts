@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # install packages
-sudo apt-get update 
-sudo apt-get install -y -q --no-install-recommends curl git wget vim
-sudo rm -rf /var/lib/apt/lists/*
+sudo yum update
+sudo yum install -y -q curl git wget vim
+sudo yum clean all
 
 
 # install nvm if not exist
